@@ -62,8 +62,8 @@ class song: # main class for the package
     self.lyrics = lyrics 
 
 # the two lines below this are an example of how to use it 
-as_it_was = song("as it was", False)
-print(as_it_was.lyrics)
+#as_it_was = song("as it was", False)
+#print(as_it_was.lyrics)
 
 
 
