@@ -7,7 +7,7 @@ I don't want to explain how it works again so just looks at the comments in the 
 
 # to use 
 import glyrics
-glyrics.song('as it was').lyrics
+glyrics.song('as it was', True).lyrics
 
 it will return None if lyrics can't be retrived
 
