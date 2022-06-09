@@ -45,7 +45,7 @@ class song:  # main class for the package
     # title is the title of the song reccomended that you include artist name, check ssl is a bool true means it checks ssl certifs
     def __init__(self, title, check_ssl):
         song = title.title()
-        url = 'https://www.google.com/search/static?q=' + \
+        url = 'https://www.google.com/search/?q=' + \
             song.replace(' ', '+') + '+lyrics'  # makes a url for the song
         html = requests.get(url, verify=check_ssl).content  # requests the page
         all_data = text_from_html(html)  # gets the html from the pae
